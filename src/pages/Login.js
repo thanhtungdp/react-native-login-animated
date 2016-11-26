@@ -32,7 +32,7 @@ export default class Login extends Component {
     }
 
     handleToHome() {
-        Actions.home({type: ActionConst.RESET})
+        Actions.home({type: ActionConst.RESET, disableInteractionCheck: true})
     }
 
     componentDidMount() {
