@@ -67,6 +67,7 @@ export default class Input extends Component {
             onBlur={this.handleBlur.bind(this)}
             onChangeText={this.props.onChange}
             secureTextEntry={this.props.secureTextEntry}
+            underlineColorAndroid='rgba(0,0,0,0)'
         />
     }
 
@@ -138,7 +139,10 @@ const styleInput = {
         color: '#ffffff',
         borderWidth: 0,
         borderColor: 'transparent',
-        backgroundColor: 'red'
+        fontSize: 14,
+        paddingTop: 0,
+        paddingBottom: 0,
+        paddingLeft: 0
     }
 };
 

@@ -19,10 +19,19 @@ You should learn it 😘
 # Design Resoruces
 You can download prototype design from [here]() (Sketch file + Flinto file)
 
+# Note
+My design on `iPhone 6 size`, if you run other iphone 5,4 or android size < 320pdi, style doesn't good.
+It run good on:
+- Iphone 6 (+)
+- Iphone 7 (+)
+- Android phone (768px x 1280px or larger)
+
 # Installation
 ```
 git clone https://github.com/thanhtungdp/react-native-login-animated
+cd react-native-login-animated
 npm install
+rnpm link #auto linked libs to Xcode, or Android
 react-native run-ios # Run ios simulator
 react-native run-android # Run android simulator
 ```

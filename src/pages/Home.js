@@ -20,7 +20,7 @@ export default class Home extends Component {
                     {'<React Viet Nam/>'}
                 </Heading>
                 <Heading marginTop={16} element="h3" color="#ffffff" textAlign="center">
-                    {'<React Viet Nam/>'}
+                    {'Animated in react'}
                 </Heading>
                 <Button marginTop={90} onPress={this.handePressSignIn.bind(this)}>
                     Sign in

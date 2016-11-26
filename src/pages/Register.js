@@ -84,7 +84,7 @@ export default class Login extends Component {
     }
 
     render() {
-        return <BackgroundWrapper iconLeft="chevron-left" onPressIcon={this.handleBack.bind(this)}>
+        return <BackgroundWrapper iconLeft="arrow-left-circle" onPressIcon={this.handleBack.bind(this)}>
             <View style={loginStyle.loginContainer}>
                 <Animated.View style={{position: 'relative', top: this.state.animation.headerPositionTop}}>
                     <Heading color="#ffffff" textAlign="center">
@@ -101,7 +101,7 @@ export default class Login extends Component {
                         />
                         <Input label="Email"
                                icon={<Icon name="envelope-o"/>}
-                               value={this.state.password}
+                               value={this.state.email}
                                marginTop={23}
                                onChange={this.handleChangeInput.bind(this, 'email')}
                         />

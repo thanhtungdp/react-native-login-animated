@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {
     View, Image, Dimensions, TouchableOpacity, Platform
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/SimpleLineIcons';
 import {getStyleFromProps, getPlatformValue} from '../../utils';
 
 const window = Dimensions.get('window');
@@ -15,7 +15,7 @@ export default class BackgroundWrapper extends Component {
         ]
         return <Image source={require('../../images/background.png')} style={style}>
             {this.props.iconLeft &&
-            <TouchableOpacity onPress={this.props.onPressIcon} style={{height:30}}>
+            <TouchableOpacity onPress={this.props.onPressIcon} style={{height:35}}>
                 <Icon color="#ffffff" size={25} name={this.props.iconLeft} style={styleWrapper.icon}/>
             </TouchableOpacity>
             }
