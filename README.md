@@ -55,7 +55,7 @@ Coming soon...
 
 # Packages
 - [React native router flux](https://github.com/aksonov/react-native-router-flux) navigate scence easy
-- [React native vector icons](https://github.com/aksonov/react-native-router-flux) easy use icon, and custom icon svg
+- [React native vector icons](https://github.com/oblador/react-native-vector-icons) easy use icon, and custom icon svg
 
 # More Documentation
 If you want to a `Master Animation in React Native` you should read 
