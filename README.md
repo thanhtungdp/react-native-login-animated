@@ -20,7 +20,7 @@ You should learn it 😘
 You can download prototype design from [here](https://www.dropbox.com/sh/ckvxavfpmojz2gi/AACltbx0qM8w2YSANVUvw1_ma?dl=0) (Sketch file + Flinto file + Releway Fonts)
 
 # Note
-My design on `iPhone 6 size`, if you run other iphone 5,4 or android size < 320pdi, style doesn't good.
+My design on `iPhone 6 size`, if you run other iphone 5,4 or android size < 320pdi, style doesn't show good.
 It run good on:
 - Iphone 6 (+)
 - Iphone 7 (+)
