@@ -5,6 +5,7 @@ import {
 import {Input, Button, Logo, Heading, BackgroundWrapper, AlertStatus} from '../components';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {Actions} from 'react-native-router-flux';
+import {getPlatformValue} from '../utils';
 
 export default class Login extends Component {
     state = {
@@ -113,7 +114,7 @@ export default class Login extends Component {
                         />
                     </Animated.View>
                     <Animated.View style={{position: 'relative', top: this.state.animation.buttonPositionTop}}>
-                        <Button marginTop={38} width={200} onPress={this.handleRegister.bind(this)}>
+                        <Button marginTop={getPlatformValue('android',25, 38)} width={200} onPress={this.handleRegister.bind(this)}>
                             Create
                         </Button>
                     </Animated.View>
@@ -129,13 +130,13 @@ const loginStyle = StyleSheet.create({
     loginContainer: {
         flex: 1,
         backgroundColor: 'transparent',
-        paddingTop: 30,
+        paddingTop: getPlatformValue('android', 10, 30),
     },
     formContainer: {
         flex: 1,
         paddingLeft: 15,
         paddingRight: 15,
-        marginTop: 34
+        marginTop: getPlatformValue('android', 5, 34)
         //backgroundColor: '#ffffff'
     }
 })

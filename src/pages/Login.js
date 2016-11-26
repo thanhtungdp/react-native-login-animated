@@ -2,7 +2,8 @@ import React, {Component, PropTypes} from 'react';
 import {View, Text, Image, StyleSheet, Alert, Animated} from 'react-native';
 import {Input, Button, Logo, Heading, BackgroundWrapper, AlertStatus} from '../components';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {Actions} from 'react-native-router-flux';
+import {Actions, ActionConst} from 'react-native-router-flux';
+import {getPlatformValue} from '../utils';
 
 export default class Login extends Component {
     state = {
@@ -31,7 +32,7 @@ export default class Login extends Component {
     }
 
     handleToHome() {
-        Actions.popTo('home')
+        Actions.home({type: ActionConst.RESET})
     }
 
     componentDidMount() {
@@ -108,6 +109,6 @@ const loginStyle = StyleSheet.create({
         flex: 1,
         paddingLeft: 15,
         paddingRight: 15,
-        marginTop: 45
+        marginTop: getPlatformValue('android', 25, 45)
     }
 })

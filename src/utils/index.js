@@ -1,3 +1,5 @@
+import {Platform} from 'react-native';
+
 /**
  * Combine style from props like: marginTop, left, right
  * @param propStyleKeys
@@ -23,4 +25,9 @@ export function getStyleFromProps(propStyleKeys = [], props = {}){
         }
     }
     return style;
+}
+
+export function getPlatformValue(os, value, valueDefault){
+    if(Platform.OS === os) return value;
+    return valueDefault
 }

@@ -135,7 +135,10 @@ const styleInput = {
     },
     input: {
         height: 34,
-        color: '#ffffff'
+        color: '#ffffff',
+        borderWidth: 0,
+        borderColor: 'transparent',
+        backgroundColor: 'red'
     }
 };
 

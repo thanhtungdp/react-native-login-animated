@@ -1,7 +1,9 @@
 import React, {Component, PropTypes} from 'react';
-import {View, Image, Dimensions, TouchableOpacity} from 'react-native';
+import {
+    View, Image, Dimensions, TouchableOpacity, Platform
+} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import {getStyleFromProps} from '../../utils';
+import {getStyleFromProps, getPlatformValue} from '../../utils';
 
 const window = Dimensions.get('window');
 
@@ -13,7 +15,7 @@ export default class BackgroundWrapper extends Component {
         ]
         return <Image source={require('../../images/background.png')} style={style}>
             {this.props.iconLeft &&
-            <TouchableOpacity onPress={this.props.onPressIcon}>
+            <TouchableOpacity onPress={this.props.onPressIcon} style={{height:30}}>
                 <Icon color="#ffffff" size={25} name={this.props.iconLeft} style={styleWrapper.icon}/>
             </TouchableOpacity>
             }
@@ -32,8 +34,8 @@ const styleWrapper = {
     container: {
         width: window.width,
         height: window.height,
-        resizeMode: "contain",
-        paddingTop: 22
+        resizeMode: getPlatformValue('android', 'cover', 'contain'),
+        paddingTop: getPlatformValue('android', 5, 22),
     },
     icon: {
         marginLeft: 10,
