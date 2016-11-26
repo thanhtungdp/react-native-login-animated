@@ -3,7 +3,7 @@ This app use `Animated` for animation transition from other `Scence`, it's easy 
 > Simple, clean, easy learn
 
 Demo and click on image if you want view [video](https://youtu.be/HfHvnzJA7o4):
-[![Foo](https://media.giphy.com/media/3oriNXuNEJnr9yjblm/source.gif)](https://youtu.be/HfHvnzJA7o4)
+[![Foo](https://media.giphy.com/media/3oriNXuNEJnr9yjblm/source.gif)]
 
 # Design Tools
 A long time, I design prototype in photoshop, it's helpful, but i have problems when convert from psd to App, it's not hard, but it spent many 
