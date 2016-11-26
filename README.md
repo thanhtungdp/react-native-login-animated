@@ -46,6 +46,9 @@ react-native run-android # Run android simulator
 # Tutorial step by step
 Coming soon...
 
+# Ecosystem flow
+![Image](https://scontent.fsgn2-2.fna.fbcdn.net/t31.0-8/15156857_1186222478130869_1406581156623831552_o.jpg)
+
 # Packages
 - [React native router flux](https://github.com/aksonov/react-native-router-flux) navigate scence easy
 - [React native vector icons](https://github.com/aksonov/react-native-router-flux) easy use icon, and custom icon svg
