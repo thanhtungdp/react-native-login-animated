@@ -43,6 +43,9 @@ react-native run-ios # Run ios simulator
 react-native run-android # Run android simulator
 ```
 
+# Tutorial step by step
+Coming soon...
+
 # Packages
 - [React native router flux](https://github.com/aksonov/react-native-router-flux) navigate scence easy
 - [React native vector icons](https://github.com/aksonov/react-native-router-flux) easy use icon, and custom icon svg
