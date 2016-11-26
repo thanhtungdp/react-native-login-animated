@@ -20,6 +20,9 @@ time of me. And i don't t know create animation in photoshop.
 
 You should learn it 😘
 
+# Special thank
+Thank you to [Marc Andrew](https://medium.com/@marcandrew), it's tutorial design in sketch helpful with me.
+
 # Design Resoruces
 You can download prototype design from [here](https://www.dropbox.com/sh/ckvxavfpmojz2gi/AACltbx0qM8w2YSANVUvw1_ma?dl=0) (Sketch file + Flinto file + Releway Fonts)
 
@@ -40,7 +43,7 @@ react-native run-ios # Run ios simulator
 react-native run-android # Run android simulator
 ```
 
-# Packages used
+# Packages
 - [React native router flux](https://github.com/aksonov/react-native-router-flux) navigate scence easy
 - [React native vector icons](https://github.com/aksonov/react-native-router-flux) easy use icon, and custom icon svg
 
@@ -58,6 +61,7 @@ If you want to a `Master Animation in React Native` you should read
 # Bonus
 - [Make Ecommerce app with Sketch + Flinto](https://medium.com/@marcandrew/prototyping-an-e-commerce-app-in-flinto-part-1-of-2-988de33005c5#.w3isurxtc)
 - [Prototype app in IOS, Android with Sketch + Flinto](https://www.smashingmagazine.com/2015/01/prototyping-ios-android-apps-sketch-freebie/)
+- [Design IOS APP with Sketch by Marc Andrew](https://medium.com/sketch-app-sources/designing-an-ios-app-in-sketch-part-1-of-3-7541f4fca87a?source=user_profile---------33---------)
 - [Sketch for IOS Developer](https://www.raywenderlich.com/117609/sketch-indie-developers)
 - [Sketch for beginer login interface](https://webdesign.tutsplus.com/tutorials/sketch-for-beginners-design-a-login-form-interface--cms-21534)
 - [Sketch chanel learning free](https://medium.com/sketch-app)
