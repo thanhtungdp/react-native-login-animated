@@ -2,9 +2,9 @@
 This app use `Animated` for animation transition from other `Scence`, it's easy and build fast. You should learn it.
 > Simple, clean, easy learn
 
-Demo and click on image if you want view [video](https://youtu.be/HfHvnzJA7o4):
+Demo and click on image if you want view [video](https://youtu.be/rWWZENNhh6M):
 
-[![Image](https://cloud.githubusercontent.com/assets/4653102/20638502/83c8713e-b3db-11e6-9814-0c062ffbc675.gif)](https://youtu.be/HfHvnzJA7o4)
+[![Image](https://cloud.githubusercontent.com/assets/4653102/20638502/83c8713e-b3db-11e6-9814-0c062ffbc675.gif)](https://youtu.be/rWWZENNhh6M)
 
 # Design Tools
 A long time, I design prototype in photoshop, it's helpful, but i have problems when convert from psd to App, it's not hard, but it spent many 
