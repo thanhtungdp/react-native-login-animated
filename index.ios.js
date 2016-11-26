@@ -3,9 +3,12 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  StatusBar
 } from 'react-native';
 import App from './src/App'
+
+StatusBar.setBarStyle('light-content');
 
 export default class AnimatedApp extends Component {
   render() {
