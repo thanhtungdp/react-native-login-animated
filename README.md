@@ -33,6 +33,10 @@ It run good on:
 - Iphone 7 (+)
 - Android phone (768px x 1280px or larger)
 
+# Requirement
+- React native 0.38
+- Xcode 8.1
+
 # Installation
 ```
 git clone https://github.com/thanhtungdp/react-native-login-animated
