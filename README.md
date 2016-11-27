@@ -42,9 +42,9 @@ It run good on:
 git clone https://github.com/thanhtungdp/react-native-login-animated
 cd react-native-login-animated
 npm install
-rnpm link #auto linked libs to Xcode, or Android
-react-native run-ios # Run ios simulator
-react-native run-android # Run android simulator
+react-native link # Auto link libs to Xcode, or Android
+react-native run-ios # Run app on iOS simulator
+react-native run-android # Run app on Android emulator
 ```
 
 # Tutorial step by step
