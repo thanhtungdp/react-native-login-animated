@@ -2,6 +2,8 @@
 This app use `Animated` for animation transition from other `Scence`, it's easy and build fast. You should learn it.
 > Simple, clean, easy learn
 
+Demo in Exponent App Real Device: [Get app](https://getexponent.com/@thanhtungdp/login-animated-app)
+
 Demo and click on image if you want view [video](https://youtu.be/rWWZENNhh6M):
 
 [![Image](https://cloud.githubusercontent.com/assets/4653102/20638502/83c8713e-b3db-11e6-9814-0c062ffbc675.gif)](https://youtu.be/rWWZENNhh6M)
