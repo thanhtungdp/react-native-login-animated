@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import {
-    Navigator
-} from 'react-native';
 import {Scene, Router} from 'react-native-router-flux';
 import {BackgroundWrapper} from './components';
 import {Home, Login, Register} from './pages';
