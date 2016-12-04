@@ -84,7 +84,7 @@ export default class Login extends Component {
     }
 
     render() {
-        return <BackgroundWrapper iconLeft="arrow-left-circle" onPressIcon={this.handleBack.bind(this)}>
+        return <BackgroundWrapper transparent iconLeft="arrow-left-circle" onPressIcon={this.handleBack.bind(this)}>
             <View style={loginStyle.loginContainer}>
                 <Animated.View style={{position: 'relative', top: this.state.animation.headerPositionTop}}>
                     <Heading color="#ffffff" textAlign="center">

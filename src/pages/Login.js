@@ -59,7 +59,7 @@ export default class Login extends Component {
     }
 
     render() {
-        return <BackgroundWrapper iconLeft="home" onPressIcon={this.handleToHome.bind(this)}>
+        return <BackgroundWrapper transparent iconLeft="home" onPressIcon={this.handleToHome.bind(this)}>
             <View style={loginStyle.loginContainer}>
                 <Logo/>
                 <Heading marginTop={16} color="#ffffff" textAlign="center">

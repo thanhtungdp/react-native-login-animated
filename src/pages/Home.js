@@ -55,7 +55,7 @@ export default class Home extends Component {
     }
 
     render() {
-        return <BackgroundWrapper>
+        return <BackgroundWrapper transparent>
             <View style={loginStyle.loginContainer}>
                 <Animated.View style={{position: 'relative', top: this.state.logoPositionTop}}>
                     <Logo/>

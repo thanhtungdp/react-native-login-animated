@@ -8,4 +8,4 @@ import App from './src/App'
 StatusBar.setBarStyle('light-content');
 
 
-AppRegistry.registerComponent('App', () => App);
+AppRegistry.registerComponent('AnimatedApp', () => App);
